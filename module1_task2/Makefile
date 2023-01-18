@@ -2,7 +2,7 @@ build:	## Creates a Website using hugo
 	hugo
 
 clean:	## Cleans the files and directories in dist directory rm -rf dist/*
-	cd $(DESTDIR) && rm -rf *
+	cd /dist/ && rm -rf *
 
 post:	## Posts using environment variables
 	hugo new posts/$(POST_NAME).md
