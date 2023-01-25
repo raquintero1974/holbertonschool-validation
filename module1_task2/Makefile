@@ -11,3 +11,5 @@ post:	## Posts using environment variables
 
 help:	## Informs about each target
 	echo -e "\n build: creates a Website using hugo \n clean: Cleans the files and directories in dist directory \n Post: Posts using environment variables \nhelp: Show this help usage"
+readme: ## Explain the use for this document
+	echo README.md
