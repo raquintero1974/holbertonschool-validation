@@ -83,3 +83,10 @@ There are three steps on llifecycle:
 5. Add some [markdown](https://commonmark.org/help/) to the body of the post, but do not change the `draft` value.
 6. Save the file, then start Hugo’s development server to view the site. You can run either of the following commands to include draft content.
 7. With your editor, open the [site configuration](https://gohugo.io/getting-started/configuration/) file (`config.toml`) in the root of your project.
+
+## clean:
+Cleans the files and directories in dist directory 
+## post:
+Posts using environment variables
+## help:
+Informs about each target
