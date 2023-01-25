@@ -10,4 +10,4 @@ post:	## Posts using environment variables
 	sed -i 's+title.*+title: "$(POST_TITLE)"+g' content/posts/$(POST_NAME).md
 
 help:	## Informs about each target
-	echo -e "\n build: creates a Website using hugo \n clean: Cleans the files and directories in dist directory \n Post: Posts using environment variables \n"
+	echo -e "\n build: creates a Website using hugo \n clean: Cleans the files and directories in dist directory \n Post: Posts using environment variables \nhelp: Show this help usage"
